@@ -1,7 +1,7 @@
 require_relative './nameable'
 
 class BaseDecorator < Nameable
-  def initialize (nameable)
+  def initialize(nameable)
     super()
     @neameable = nameable
   end
