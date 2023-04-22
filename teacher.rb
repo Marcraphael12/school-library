@@ -1,8 +1,10 @@
+require_relative './person'
+
 class Teacher < Person
   attr_reader :specialization
 
-  def initialize(age, specialization, name = 'Unknown', parent_permission: true)
-    super(age, name, parent_permission)
+  def initialize(name, age, specialization)
+    super(name, age)
     @specialization = specialization
   end
 
