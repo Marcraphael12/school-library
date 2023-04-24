@@ -1,10 +1,7 @@
-require_relative './base_decorator'
+require './decorator'
 
-class TrimmerDecorator < BaseDecorator
-  MAX_LENGTH = 10
+class TrimmerDecorator < Decorator
   def correct_name
-    name = @nameable.correct_name
-    name = "#{name[0...MAX_LENGTH].strip}..." if name.length > MAX_LENGTH
-    name
+    @nameable.correct_name.slice(0, 9)
   end
 end
