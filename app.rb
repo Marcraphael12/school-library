@@ -20,7 +20,7 @@ class App
 
   def list_selections
     puts ''
-    puts "Please choose an option by selecting a number:
+    puts "Please choose an option according to the number in the dashboard:
                 1. List all books
                 2. List all people
                 3. Create person account
