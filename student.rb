@@ -7,6 +7,7 @@ class Student < Person
   end
 
   attr_reader :classroom
+  attr_accessor :parent_permission
 
   def play_hooky
     '¯\\_(ツ)_/¯'
