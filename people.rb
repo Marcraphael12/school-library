@@ -50,7 +50,7 @@ class Peoplemodule
     print 'student name: '
     name = gets.chomp
 
-    print 'has parent permission? [Y/N]: '
+    print 'has parent permission? [y/n]: '
     parent_permission = gets.chomp.downcase
     case parent_permission
     when 'n'
