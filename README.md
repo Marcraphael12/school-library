@@ -97,6 +97,12 @@ To run the project:
 - Twitter: [@Marcraphael20](https://twitter.com/MarcRaphael20)
 - LinkedIn: [Marc raphael](http://www.linkedin.com/in/marc-raphael-326039204)
 
+ 👤**Rita Nkem Daniel**
+
+- GitHub: [@RitaDee](https://github.com/RitaDee)
+- Twitter: [@durdana_dee](https://twitter.com/durdana_dee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rita-daniel/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
