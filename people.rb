@@ -6,7 +6,7 @@ class Peoplemodule
   attr_accessor :people
 
   def initialize
-    #read already saved peoples
+    # read already saved peoples
     @people = read_people
   end
 
@@ -32,7 +32,7 @@ class Peoplemodule
     puts 'Person created successfully'
   end
 
-  #create teacher
+  # create teacher
   def create_teacher
     print 'teacher age: '
     age = gets.chomp
