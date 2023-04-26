@@ -29,18 +29,18 @@ describe Book do
   end
 
   it 'add a rental' do
-    #First create students
+    # First create students
     @student1 = Student.new('23', 'Marc')
     @student2 = Student.new('20', 'Rita')
 
-    #Make sure that rentals is empty
+    # Make sure that rentals is empty
     expect(@book.rentals.length).to eql(0)
 
-    #Add a new rental
+    # Add a new rental
     @book.add_rental('2023-04-26', @student1)
     @book.add_rental('2023-04-26', @student1)
 
-    #Make sure the new rental has been added
+    # Make sure the new rental has been added
     expect(@book.rentals.length).to eql(2)
   end
 end

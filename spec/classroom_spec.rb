@@ -19,12 +19,11 @@ describe Classroom do
 
   describe '#Create test for add_student method' do
     it 'Should return two student' do
-
-      #create two students
+      # create two students
       marc = Student.new(23, 'marc', parent_permission: true)
       rita = Student.new(20, 'rita', parent_permission: false)
 
-      #add the students to the classroom
+      # add the students to the classroom
       @classroom.add_student(marc)
       @classroom.add_student(rita)
       expect(@classroom.students.length).to eql 2
